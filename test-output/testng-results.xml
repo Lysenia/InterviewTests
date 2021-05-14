@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21536" started-at="2021-05-14T05:06:09Z" finished-at="2021-05-14T05:06:31Z">
+  <suite name="Default suite" duration-ms="8159" started-at="2021-05-14T05:55:19Z" finished-at="2021-05-14T05:55:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21536" started-at="2021-05-14T05:06:09Z" finished-at="2021-05-14T05:06:31Z">
-      <class name="InterviewWalletHub.InterviewTests.WriteReview">
-        <test-method status="PASS" signature="logIn()[pri:0, instance:InterviewWalletHub.InterviewTests.WriteReview@57fffcd7]" name="logIn" duration-ms="21464" started-at="2021-05-14T05:06:09Z" finished-at="2021-05-14T05:06:31Z">
+    <test name="Default test" duration-ms="8159" started-at="2021-05-14T05:55:19Z" finished-at="2021-05-14T05:55:27Z">
+      <class name="InterviewWalletHub.InterviewTests.SignUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:InterviewWalletHub.InterviewTests.SignUp@59ec2012]" name="setUp" is-config="true" duration-ms="4111" started-at="2021-05-14T05:55:19Z" finished-at="2021-05-14T05:55:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-      </class> <!-- InterviewWalletHub.InterviewTests.WriteReview -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createLightUser()[pri:0, instance:InterviewWalletHub.InterviewTests.SignUp@59ec2012]" name="createLightUser" duration-ms="3954" started-at="2021-05-14T05:55:23Z" finished-at="2021-05-14T05:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLightUser -->
+      </class> <!-- InterviewWalletHub.InterviewTests.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
